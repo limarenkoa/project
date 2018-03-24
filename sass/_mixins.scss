@@ -1,0 +1,11 @@
+@mixins .listReset() {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+@mixins .flexAlign () {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
